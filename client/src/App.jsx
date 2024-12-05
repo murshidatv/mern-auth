@@ -10,7 +10,7 @@ import Header from './componenets/Header';
 
 function App() {
   return (
-  <BrowserRouter>
+    <BrowserRouter future={{ v7_startTransition: true }}>
   {/*header*/ }
   <Header/>
   <Routes>
