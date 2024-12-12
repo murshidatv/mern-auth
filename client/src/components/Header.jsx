@@ -29,10 +29,11 @@ function Header() {
                 ) }
                 
                 </Link>
-                <Link to='/sign-up'>
-                <li>Sign Up</li>
-                </Link>
-                
+                {!currentUser && (
+                    <Link to='/sign-up'>
+                        <li>Sign Up</li>
+                    </Link>
+                )}
             </ul>
     
     
