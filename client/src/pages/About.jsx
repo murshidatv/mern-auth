@@ -2,10 +2,10 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
-      About Us
+  
+      
       <div className='px-4 py-12 max-w-2xl mx-auto' >
-      <h1 className='text-3xl font-bold mb-4 text-slate-800'>Welcome to my Auth App!</h1>
+      <h1 className='text-3xl font-bold mb-4 text-slate-800'>About Us!</h1>
       <p className= 'mb-4 text-slate-800'>Lorem Ipsum is simply dummy text of the printing 
         and typesetting industry. Lorem Ipsum 
         has been the industry's standard dummy 
@@ -21,8 +21,8 @@ function About() {
           , and more recently with desktop publi
           shing software like Aldus PageMaker in
           cluding versions of Lorem Ipsum.</p>
-    </div>
-    </div>
+       </div>
+   
   )
 }
 
